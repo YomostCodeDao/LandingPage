@@ -395,12 +395,9 @@ h1 {
     justify-content: space-between;
 }
 
-.nav-middle-one {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
 
+
+.nav-middle-one,
 .nav-middle-two {
     display: flex;
     justify-content: center;
@@ -458,7 +455,7 @@ h1 {
 .menu-item svg {
     color: #fdc529;
     display: inline;
-    margin: 0 10px;
+    margin: 0 5px;
 }
 
 .menu-item-dropdown {
@@ -539,8 +536,9 @@ h1 {
     color: #ffffff;
 }
 
-.menu-item:not(:hover) {
-    color: #cfcfcf;
+.nav-middle-one:hover> :not(:hover) {
+    color: #7e7d7d;
+    fill: #7e7d7d;
 }
 
 .mega-dropdown {
@@ -832,7 +830,6 @@ h1 {
     z-index: 998;
 }
 
-
 .hero-heading {
     color: #fdc52c;
     font-family: 'fcb-condensed-bold';
@@ -1035,8 +1032,6 @@ h1 {
     opacity: 1;
 }
 
-
-
 .player-stats-footer {
     display: flex;
     justify-content: center;
@@ -1138,25 +1133,6 @@ h1 {
     text-align: center;
     text-transform: uppercase;
     flex: 50%;
-}
-
-footer {
-    position: relative;
-    left: 0;
-    bottom: 0;
-    right: 0;
-    top: -320px;
-    display: block;
-}
-
-footer::after {
-    position: absolute;
-    content: "";
-    bottom: -430px;
-    left: 0;
-    width: 100%;
-    height: 16px;
-    background: linear-gradient(270deg, #9b0041 0, #9b0041 48%, #0018b4 52%, #0018b4);
 }
 
 .end {
