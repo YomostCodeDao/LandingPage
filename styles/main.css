@@ -746,47 +746,47 @@ h1 {
 
 #m6 {
     background: linear-gradient(0deg, rgba(0, 0, 0, 1) 18%, rgba(255, 255, 255, 0) 50%),
-        url('/assets/images/fcb_soccer_img/Midfielders/M_06-Olmo-M.jpg');
+        url('./assets/images/fcb_soccer_img/Midfielders/M_06-Olmo-M.jpg');
 }
 
 #m7 {
     background: linear-gradient(0deg, rgba(0, 0, 0, 1) 18%, rgba(255, 255, 255, 0) 50%),
-        url('/assets/images/fcb_soccer_img/Midfielders/M_07-De_Jong-M.jpg');
+        url('./assets/images/fcb_soccer_img/Midfielders/M_07-De_Jong-M.jpg');
 }
 
 #f1 {
     background: linear-gradient(0deg, rgba(0, 0, 0, 1) 18%, rgba(255, 255, 255, 0) 50%),
-        url('/assets/images/fcb_soccer_img/Forwards/F_01-Ferran_Torres-M.jpg');
+        url('./assets/images/fcb_soccer_img/Forwards/F_01-Ferran_Torres-M.jpg');
 }
 
 #f2 {
     background: linear-gradient(0deg, rgba(0, 0, 0, 1) 18%, rgba(255, 255, 255, 0) 50%),
-        url('/assets/images/fcb_soccer_img/Forwards/F_02-Lewandowski-M.jpg');
+        url('./assets/images/fcb_soccer_img/Forwards/F_02-Lewandowski-M.jpg');
 }
 
 #f3 {
     background: linear-gradient(0deg, rgba(0, 0, 0, 1) 18%, rgba(255, 255, 255, 0) 50%),
-        url('/assets/images/fcb_soccer_img/Forwards/F_03-Ansu_Fati-M.jpg');
+        url('./assets/images/fcb_soccer_img/Forwards/F_03-Ansu_Fati-M.jpg');
 }
 
 #f4 {
     background: linear-gradient(0deg, rgba(0, 0, 0, 1) 18%, rgba(255, 255, 255, 0) 50%),
-        url('/assets/images/fcb_soccer_img/Forwards/F_04-Raphinha-M.jpg');
+        url('./assets/images/fcb_soccer_img/Forwards/F_04-Raphinha-M.jpg');
 }
 
 #f5 {
     background: linear-gradient(0deg, rgba(0, 0, 0, 1) 18%, rgba(255, 255, 255, 0) 50%),
-        url('/assets/images/fcb_soccer_img/Forwards/F_05-Pau_Victor-M.jpg');
+        url('./assets/images/fcb_soccer_img/Forwards/F_05-Pau_Victor-M.jpg');
 }
 
 #f6 {
     background: linear-gradient(0deg, rgba(0, 0, 0, 1) 18%, rgba(255, 255, 255, 0) 50%),
-        url('/assets/images/fcb_soccer_img/Forwards/F_06-Lamine-M.jpg');
+        url('./assets/images/fcb_soccer_img/Forwards/F_06-Lamine-M.jpg');
 }
 
 #cs1 {
     background: linear-gradient(0deg, rgba(0, 0, 0, 1) 18%, rgba(255, 255, 255, 0) 50%),
-        url('/assets/images/fcb_soccer_img/Coaching_Staff/CS_0_Hansi_Flick-M.jpg');
+        url('./assets/images/fcb_soccer_img/Coaching_Staff/CS_0_Hansi_Flick-M.jpg');
 }
 
 #cs {
@@ -810,7 +810,7 @@ h1 {
 .mini-pic {
     width: 100%;
     height: 170px;
-    background-image: linear-gradient(to top, rgba(24, 24, 51, 1), rgba(255, 255, 255, 0) 45%), url('./assets/images/fcb_photo/foto_aficio.jpg');
+    background-image: linear-gradient(to top, rgba(24, 24, 51, 1), rgba(255, 255, 255, 0) 45%), url('/assets/images/fcb_photo/foto_aficio.jpg');
     background-repeat: no-repeat;
     background-size: 100%;
     display: flex;
