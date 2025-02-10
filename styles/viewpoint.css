@@ -1,0 +1,72 @@
+/* ===================== */
+/* VIEWPOINT */
+/* ===================== */
+@media only screen and (max-width: 1200px) {
+    .nav-middle-menu {
+        display: none;
+    }
+
+    .top-mes {
+        font-size: 1rem;
+    }
+
+    .img-logo {
+        scale: 0.7;
+        transform: translate(5px, 40px);
+    }
+
+    .header-part-3 {
+        background-color: #fff;
+    }
+
+    .main {
+        max-width: 80vw;
+    }
+
+    .mini-pic {
+        width: 100vw;
+    }
+
+    /* .img {
+        width: 19rem;
+        height: 19rem;
+    } */
+
+    /* .box-person-img {
+        position: relative;
+        width: 19rem;
+        height: 19rem;
+    } */
+
+    /* .gk1{
+        width: 19rem;
+            height: 19rem;
+    } */
+}
+
+@media only screen and (max-width: 992px) {}
+
+
+@media only screen and (max-width: 700px) {
+    .mini-pic {
+        width: 100vw;
+    }
+
+    .teamlist-list {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+
+    .teamperson-container{
+        width: auto;
+        height: auto;
+    }
+
+        .img {
+            width: 19rem;
+            height: 19rem;
+        }
+
+
+}

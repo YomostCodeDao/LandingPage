@@ -1,0 +1,69 @@
+@font-face {
+    font-family: 'fcb-bold';
+    src: url('/assets/fonts/FC_BARCELONA-Bold.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'fcb-extra-bold';
+    src: url('/assets/fonts/FC_BARCELONA-Extrabold.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'fcb-light';
+    src: url('/assets/fonts/FC_BARCELONA-Light.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'fcb-semi-bold';
+    src: url('/assets/fonts/FC_BARCELONA-Semibold.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'fcb-regular';
+    src: url('/assets/fonts/FC_BARCELONA-Regular.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'fcb-condensed-bold';    
+    src: url('/assets/fonts/FC_BARCELONACONDENSEDPRO-Bold.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'fcb-condensed-regular';
+    src: url('/assets/fonts/FC_BARCELONACONDENSEDPRO-Regular.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+/* ========================== */
+@font-face {
+    font-family: 'fcb-condensed-extra-bold';
+    src: url('/resources/v2.94.7-6669/fonts/FC_BARCELONACONDENSEDPRO-Extrabold.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'fcb-condensed-light';
+    src: url('/resources/v2.94.7-6669/fonts/FC_BARCELONACONDENSEDPRO-Light.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'fcb-condensed-semi-bold';
+    src: url('/resources/v2.94.7-6669/fonts/FC_BARCELONACONDENSEDPRO-Semibold.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}

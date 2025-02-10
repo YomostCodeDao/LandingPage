@@ -1,0 +1,1666 @@
+html {
+    background-color: rgba(24, 23, 51, 1);
+    height: auto;
+}
+
+body {
+    margin: 0;
+    position: relative;
+}
+
+main {
+    width: 100%;
+    position: relative;
+    top: 150px;
+    margin-bottom: 135px;
+}
+
+div {
+    display: block;
+    /* unicode-bidi: isolate; */
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    padding-left: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+header {
+    width: 100%;
+    height: auto;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 999;
+}
+
+a {
+    background-color: transparent;
+    text-decoration: none;
+    color: #fff;
+}
+
+ol li,
+ul li {
+    list-style-type: none;
+}
+
+figure {
+    margin: 0;
+    position: relative;
+}
+
+h1 {
+    opacity: 1;
+}
+
+.img {
+    width: 29rem;
+    height: 29rem;
+}
+
+.img-logo {
+    position: fixed;
+    transform: translate(35px, -24px);
+    z-index: 789;
+}
+
+.header-part-1 {
+    width: 100%;
+    height: 49px;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(10, 9, 39);
+    font-family: 'fcb-extra-bold';
+}
+
+.top-mes {
+    display: flex;
+    align-items: center;
+    width: auto;
+    top: 4px;
+    border-radius: 16px;
+    background-image: linear-gradient(90deg, rgb(21, 66, 132), rgb(39, 37, 69));
+    padding: 7px 16px;
+    font-size: 16px;
+    scale: 0.9;
+    margin-left: 160px;
+}
+
+.top-mes span {
+    color: #fdc529;
+}
+
+.top-nav-right {
+    display: flex;
+    height: auto;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.user-button {
+    display: flex;
+    align-items: center;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    color: #fff;
+    font-family: 'fcb-extra-bold';
+    margin-right: 24px;
+}
+
+.icon {
+    width: 16px;
+    height: 16px;
+    fill: #fff;
+}
+
+.user-button-icon {
+    background-color: #154284;
+    border-radius: 100%;
+    height: 32px;
+    width: 32px;
+    margin-right: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.user-button:hover span {
+    text-decoration: underline;
+}
+
+.user-option {
+    display: flex;
+    background-image: linear-gradient(90deg, rgb(140, 26, 23), rgb(205, 18, 45));
+    border-radius: 3px;
+    padding: 0 24px;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    line-height: 14px;
+    margin: 0 8px 0 0;
+    height: 42px;
+    font-weight: 400;
+}
+
+.user-options__barca-icon {
+    fill: #fff;
+    margin-right: 8px;
+    height: 22px;
+    width: 22px;
+}
+
+.fcbsites__icon {
+    fill: #fff;
+    width: 14px;
+    height: 14px;
+}
+
+.language-option {
+    display: flex;
+    font-weight: 400;
+    background-color: #3b3a65;
+    border-radius: 50px;
+    width: 36px;
+    height: 36px;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    transition: all 0.25s ease-in;
+    margin: 0 5px;
+    margin-right: 16px;
+    margin-left: 16px;
+    position: relative;
+    font-family: 'fcb-bold';
+}
+
+.language-option-title {
+    display: flex;
+    font-weight: 400;
+    background-color: transparent;
+    border-radius: 50px;
+    width: 36px;
+    height: 36px;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    transition: all 0.25s ease-in;
+    margin: 0 5px;
+    margin-right: 16px;
+    margin-left: 16px;
+    position: relative;
+    font-family: 'fcb-bold';
+}
+
+.language-option:hover {
+    background-color: rgb(204, 18, 46);
+}
+
+.language-option-dropdown {
+    position: absolute;
+    z-index: 40;
+    right: 0;
+    background-color: #fff;
+    width: 100%;
+    margin: 0 8px 8px 0;
+    border: 1px solid #efefef;
+    top: 36px;
+    padding-bottom: 16px;
+    min-width: 240px;
+    left: auto;
+    visibility: visible;
+    transform: scale(0);
+    opacity: 0;
+    transition: transform 0.25s ease, opacity 0.1 ease;
+}
+
+.language-option:hover .language-option-dropdown {
+    opacity: 1;
+    transform: scale(1);
+}
+
+.language-option-heading {
+    position: relative;
+    left: 5px;
+    margin-top: 16px;
+    margin-bottom: 8px;
+    margin-left: 24px;
+    font-family: 'fcb-light';
+    font-weight: 400;
+    font-size: 12px;
+    color: #727272;
+}
+
+.language-option-item {
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.041);
+    background-color: transparent;
+    color: #222;
+}
+
+.language-option-item-link {
+    display: inline-block;
+    width: 100%;
+    padding: 8px 28px;
+    text-decoration: none;
+}
+
+.language-option-text {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    font-size: 14px;
+    color: #222;
+    text-decoration: none;
+}
+
+
+.language-option-viewing {
+    font-family: 'fcb-light';
+    font-weight: 400;
+    color: #767676;
+    font-size: 10px;
+}
+
+.fcb-site {
+    display: flex;
+    flex-direction: column;
+    background-color: #3b3a65;
+    border-radius: 50px;
+    width: 36px;
+    height: 36px;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    transition: all 0.25s ease-in;
+    font-size: 7px;
+    line-height: 7px;
+    margin: 0 15px 0 5px;
+    font-family: 'fcb-bold';
+}
+
+.fcb-site:hover {
+    background-color: rgb(204, 18, 46);
+}
+
+.header-part-2 {
+    width: 100%;
+    position: relative;
+    background-color: #181733;
+    display: flex;
+    font-family: 'FCB Bold';
+    height: 63px;
+    border-top: 1px solid #29283d;
+}
+
+.nav-middle-logo {
+    display: flex;
+    min-width: 160px;
+    position: relative;
+    z-index: 1;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-middle-logo img {
+    width: 100px;
+    height: 100px;
+    z-index: 30;
+}
+
+.nav-middle-menu {
+    width: 100%;
+    display: flex;
+    /* height: 70px; */
+    justify-content: space-between;
+}
+
+.nav-middle-one {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-middle-two {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.middle-navigation__icon--right {
+    fill: #fdc529;
+    width: 20px;
+    height: 12px;
+}
+
+.middle-navigation__icon {
+    fill: #fdc529;
+    width: 6.4px;
+    height: 6.4px;
+}
+
+.nav-middle-two p {
+    color: #fdc529;
+}
+
+.menu-item {
+    font-weight: 400;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* position: relative; */
+    height: 100%;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 18px;
+    padding: 0 20px;
+    font-family: 'fcb-condensed-bold';
+    background-color: #181733;
+    color: #fff;
+    transition: all 0.25s ease;
+}
+
+.menu-item .menu-item-befor {
+    position: relative;
+}
+
+.menu-item .menu-item-befor::before {
+    position: absolute;
+    content: "";
+    display: block;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 4px;
+    background-color: #fdc529;
+}
+
+.menu-item svg {
+    color: #fdc529;
+    display: inline;
+    margin: 0 10px;
+}
+
+.menu-item-dropdown {
+    position: absolute;
+    visibility: hidden;
+    visibility: visible;
+    z-index: 30;
+    top: 100%;
+    background-color: #154284;
+    opacity: 0;
+    width: auto;
+    padding: 8px 0;
+    border: none;
+    transform: scale(0);
+    column-count: 2;
+    transition: transform 0.25s ease, opacity 0.1s ease;
+}
+
+.nav-middle-menu__item {
+    font-family: 'fcb-semi-bold';
+    font-weight: 400;
+    text-transform: none;
+    font-size: 14px;
+    display: flex;
+    justify-content: flex-start;
+    white-space: nowrap;
+    /*<=============*/
+    /* Tối qua học được một thuộc tính hay ở đây */
+    transform: translateY(0);
+}
+
+.nav-middle-menu__item a {
+    color: #fff;
+    padding: 8px 16px;
+    transform: translateY(-10px);
+    transition: transform 0.5s ease;
+}
+
+.menu-item:hover .menu-item-dropdown {
+    opacity: 1;
+    transform: translateY(0) scale(1);
+}
+
+.menu-item:hover .nav-middle-menu__item a {
+    transform: translateY(0);
+}
+
+.menu-item-dropdown::after {
+    content: "";
+    display: inline-block;
+    position: absolute;
+    width: 0;
+    height: 0;
+    bottom: 100%;
+    border: 8px solid #154284;
+    border-top-color: transparent;
+    border-right-color: transparent;
+    border-left-color: transparent;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.menu-item-dropdown::before {
+    content: "";
+    position: absolute;
+    top: 14px;
+    left: 50%;
+    bottom: 20px;
+    width: 2px;
+    background: hsla(0, 0%, 100%, .1);
+}
+
+.menu-item .middle-icon-left {
+    fill: #fff;
+}
+
+.menu-item:hover {
+    color: #ffffff;
+}
+
+.menu-item:not(:hover) {
+    color: #cfcfcf;
+}
+
+
+
+
+
+
+.mega-dropdown {
+    position: absolute;
+    display: flex;
+    top: 62px;
+    left: 0;
+    right: 0;
+    /* top: 100%; */
+    width: 100%;
+    padding: 35px 24px 40px;
+    height: auto;
+    background: #0a0927;
+    justify-content: center;
+    visibility: visible;
+    transform: scale(0);
+    opacity: 0;
+    /* transform: translateY(0); */
+    transform-origin: top center;
+    transition: transform 0.25s ease, opacity 0.25s ease;
+    z-index: 44;
+}
+
+.menu-item:hover .mega-dropdown,
+.mega-dropdown-colume {
+    opacity: 1;
+    transform: scale(1);
+}
+
+.mega-dropdown-colume {
+    padding: 8px 36px 0;
+    text-align: left;
+}
+
+.mega-dropdown-colume-title {
+    padding-top: 0;
+    padding-right: 60px;
+    font-size: 30px;
+    line-height: 30px;
+    color: #fdc529;
+    font-family: 'fcb-condensed-bold';
+    font-weight: 400;
+    text-transform: none;
+}
+
+.mega-dropdown-list-item-title {
+    margin-bottom: 10px;
+    color: #fdc529;
+}
+
+.mega-dropdown-list-item {
+    display: block;
+    position: relative;
+}
+
+.mega-dropdown-list-link {
+    display: block;
+    padding: 6px 0;
+    color: #fff;
+    text-decoration: none;
+    font-size: 13px;
+    line-height: 16px;
+    text-transform: none;
+    font-family: 'fcb-semi-bold';
+    font-weight: 400;
+}
+
+.header-part-3 {
+    width: 100%;
+    position: relative;
+    top: auto;
+    background: rgb(0, 24, 180);
+    background: linear-gradient(90deg, rgba(0, 24, 180, 1) 47%, rgba(155, 0, 65, 1) 53%);
+    font-family: 'FCB Bold';
+}
+
+.list-item {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    margin-left: 160px;
+}
+
+.list-rel {
+    font-family: 'fcb-regular';
+    color: #ffffff;
+    display: flex;
+    font-size: 14px;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 17px;
+    position: relative;
+}
+
+.list-rel::before {
+    content: "";
+    height: 0;
+    display: block;
+    position: absolute;
+    bottom: 0;
+    left: 16px;
+    right: 16px;
+    margin: 0 auto;
+    background: #FFF;
+    transition: height 0.25s ease;
+}
+
+#list-rel-players::before {
+    content: "";
+    height: 4px;
+    display: block;
+    position: absolute;
+    bottom: 0;
+    left: 16px;
+    right: 16px;
+    margin: 0 auto;
+    background: #fdc529;
+    transition: height 0.25s ease;
+}
+
+.list-rel:hover::before {
+    height: 4px;
+}
+
+
+
+
+#gk1 {
+    background: linear-gradient(0deg, rgba(0, 0, 0, 1) 18%, rgba(255, 255, 255, 0) 50%),
+        url('/assets/images/fcb_soccer_img/Goalkeepers/G_01-Ter_Stegen-M.jpg');
+}
+
+#gk2 {
+    background: linear-gradient(0deg, rgba(0, 0, 0, 1) 18%, rgba(255, 255, 255, 0) 50%),
+        url('/assets/images/fcb_soccer_img/Goalkeepers/G_02-Inaki_Pena-M.jpg');
+}
+
+#gk3 {
+    background: linear-gradient(0deg, rgba(0, 0, 0, 1) 18%, rgba(255, 255, 255, 0) 50%),
+        url('/assets/images/fcb_soccer_img/Goalkeepers/G_03-Szczesny-M.jpg');
+}
+
+#df1 {
+    background: linear-gradient(0deg, rgba(0, 0, 0, 1) 18%, rgba(255, 255, 255, 0) 50%),
+        url('/assets/images/fcb_soccer_img/Defenders/DF_01-Cubarsi-M.jpg');
+}
+
+#df2 {
+    background: linear-gradient(0deg, rgba(0, 0, 0, 1) 18%, rgba(255, 255, 255, 0) 50%),
+        url('/assets/images/fcb_soccer_img/Defenders/DF_02-Balde-M.jpg');
+}
+
+#df3 {
+    background: linear-gradient(0deg, rgba(0, 0, 0, 1) 18%, rgba(255, 255, 255, 0) 50%),
+        url('/assets/images/fcb_soccer_img/Defenders/DF_03-Araujo-M.jpg');
+}
+
+#df4 {
+    background: linear-gradient(0deg, rgba(0, 0, 0, 1) 18%, rgba(255, 255, 255, 0) 50%),
+        url('/assets/images/fcb_soccer_img/Defenders/DF_04-Martinez-M.jpg');
+}
+
+#df5 {
+    background: linear-gradient(0deg, rgba(0, 0, 0, 1) 18%, rgba(255, 255, 255, 0) 50%),
+        url('/assets/images/fcb_soccer_img/Defenders/DF_05-Christensen-M.jpg');
+}
+
+#df6 {
+    background: linear-gradient(0deg, rgba(0, 0, 0, 1) 18%, rgba(255, 255, 255, 0) 50%),
+        url('/assets/images/fcb_soccer_img/Defenders/DF_06-Kounde-M.jpg');
+}
+
+#df7 {
+    background: linear-gradient(0deg, rgba(0, 0, 0, 1) 18%, rgba(255, 255, 255, 0) 50%),
+        url('/assets/images/fcb_soccer_img/Defenders//DF_07--Eric_Garcia-M.jpg');
+}
+
+#m1 {
+    background: linear-gradient(0deg, rgba(0, 0, 0, 1) 18%, rgba(255, 255, 255, 0) 50%),
+        url('/assets/images/fcb_soccer_img/Midfielders/M_01-Gavi-M.jpg');
+}
+
+#m2 {
+    background: linear-gradient(0deg, rgba(0, 0, 0, 1) 18%, rgba(255, 255, 255, 0) 50%),
+        url('/assets/images/fcb_soccer_img/Midfielders/M_02-Pedri-M.jpg');
+}
+
+#m3 {
+    background: linear-gradient(0deg, rgba(0, 0, 0, 1) 18%, rgba(255, 255, 255, 0) 50%),
+        url('/assets/images/fcb_soccer_img/Midfielders/M_03-Pablo_Torre-M.jpg');
+}
+
+#m4 {
+    background: linear-gradient(0deg, rgba(0, 0, 0, 1) 18%, rgba(255, 255, 255, 0) 50%),
+        url('/assets/images/fcb_soccer_img/Midfielders/M_04-Fermin-M.jpg');
+}
+
+#m5 {
+    background: linear-gradient(0deg, rgba(0, 0, 0, 1) 18%, rgba(255, 255, 255, 0) 50%),
+        url('/assets/images/fcb_soccer_img/Midfielders/M_05-Casado-M.jpg');
+}
+
+#m6 {
+    background: linear-gradient(0deg, rgba(0, 0, 0, 1) 18%, rgba(255, 255, 255, 0) 50%),
+        url('/assets/images/fcb_soccer_img/Midfielders/M_06-Olmo-M.jpg');
+}
+
+#m7 {
+    background: linear-gradient(0deg, rgba(0, 0, 0, 1) 18%, rgba(255, 255, 255, 0) 50%),
+        url('/assets/images/fcb_soccer_img/Midfielders/M_07-De_Jong-M.jpg');
+}
+
+#f1 {
+    background: linear-gradient(0deg, rgba(0, 0, 0, 1) 18%, rgba(255, 255, 255, 0) 50%),
+        url('/assets/images/fcb_soccer_img/Forwards/F_01-Ferran_Torres-M.jpg');
+}
+
+#f2 {
+    background: linear-gradient(0deg, rgba(0, 0, 0, 1) 18%, rgba(255, 255, 255, 0) 50%),
+        url('/assets/images/fcb_soccer_img/Forwards/F_02-Lewandowski-M.jpg');
+}
+
+#f3 {
+    background: linear-gradient(0deg, rgba(0, 0, 0, 1) 18%, rgba(255, 255, 255, 0) 50%),
+        url('/assets/images/fcb_soccer_img/Forwards/F_03-Ansu_Fati-M.jpg');
+}
+
+#f4 {
+    background: linear-gradient(0deg, rgba(0, 0, 0, 1) 18%, rgba(255, 255, 255, 0) 50%),
+        url('/assets/images/fcb_soccer_img/Forwards/F_04-Raphinha-M.jpg');
+}
+
+#f5 {
+    background: linear-gradient(0deg, rgba(0, 0, 0, 1) 18%, rgba(255, 255, 255, 0) 50%),
+        url('/assets/images/fcb_soccer_img/Forwards/F_05-Pau_Victor-M.jpg');
+}
+
+#f6 {
+    background: linear-gradient(0deg, rgba(0, 0, 0, 1) 18%, rgba(255, 255, 255, 0) 50%),
+        url('/assets/images/fcb_soccer_img/Forwards/F_06-Lamine-M.jpg');
+}
+
+#cs1 {
+    background: linear-gradient(0deg, rgba(0, 0, 0, 1) 18%, rgba(255, 255, 255, 0) 50%),
+        url('/assets/images/fcb_soccer_img/Coaching_Staff/CS_0_Hansi_Flick-M.jpg');
+}
+
+#cs {
+    transition: transform 0.5s ease;
+}
+
+
+
+.main {
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 93rem;
+    background-color: white;
+    border-radius: 16px 16px 0 0;
+    color: black;
+    height: auto;
+    text-align: center;
+    position: relative;
+}
+
+.mini-pic {
+    width: 100%;
+    height: 170px;
+    background-image: linear-gradient(to top, rgba(24, 24, 51, 1), rgba(255, 255, 255, 0) 45%), url('/assets/images/fcb_photo/foto_aficio.jpg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    opacity: 0.3;
+    position: relative;
+    z-index: 99;
+}
+
+.hero-heading-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    opacity: 1;
+    z-index: 998;
+}
+
+
+.hero-heading {
+    color: #fdc52c;
+    font-family: 'fcb-condensed-bold';
+    display: inline-block;
+    opacity: 1;
+    font-size: 40px;
+    line-height: 64px;
+    margin: 0 0 15px;
+    text-transform: uppercase;
+    position: static;
+    z-index: 999;
+}
+
+.main-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 24px;
+}
+
+.content-partner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 24px;
+}
+
+.title-first-team {
+    font-size: 40px;
+    line-height: 20px;
+    padding: 0 10px 0 0;
+    margin-top: 0;
+}
+
+.title-first-team h1 {
+    font-family: 'fcb-condensed-bold';
+    font-size: 40px;
+    line-height: 20px;
+    font-weight: 400;
+    padding: 0 10px 0 0;
+    margin: 0;
+    display: flex;
+    align-items: center;
+}
+
+.content-partner-label {
+    position: relative;
+    font-size: 10px;
+    color: rgb(93, 94, 95);
+}
+
+.content-partner-label::after {
+    position: absolute;
+    width: 0.5px;
+    height: 100%;
+    top: 0px;
+    bottom: 0px;
+    right: -10px;
+    content: "";
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+.sub-nav-item {
+    color: #222;
+    font-family: 'fcb-extra-bold';
+    border: 2px;
+    border-radius: 4px;
+    background-color: #f8f8f8;
+    font-size: 12px;
+    line-height: 14px;
+    padding: 8px 16px;
+    text-transform: uppercase;
+    transition: all 0.25s ease-in;
+}
+
+.sub-nav-item:hover {
+    background-color: rgb(21, 66, 132);
+    color: white;
+}
+
+.main-sub-nav {
+    text-align: center;
+}
+
+.teamlist-title {
+    font-family: 'fcb-condensed-bold';
+    color: #000000;
+    font-size: 40px;
+    line-height: 20px;
+    margin: 34px 0 26px 0;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.teamperson-container a {
+    display: inline-block;
+    text-align: center;
+    min-width: 0;
+    padding: 0 5px;
+    position: relative;
+}
+
+.teamlist-list {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.teamlist-section {
+    padding: 38px 0 26px;
+    position: relative;
+}
+
+.container {
+    padding: 0 36px;
+}
+
+.box-person-img {
+    position: relative;
+    width: 461px;
+    height: 461px;
+}
+
+.person-text {
+    color: #ffffff;
+    font-family: 'fcb-condensed-bold';
+}
+
+
+.person-number {
+    display: block;
+    text-align: center;
+    font-size: 120px;
+    opacity: 0.4;
+    position: absolute;
+    transform: translateY(-70px);
+    left: 0;
+    right: 0;
+    transition: transform 0.5s ease;
+}
+
+.person-firstname {
+    font-family: 'fcb-regular';
+    font-size: 20px;
+    font-weight: 400;
+    margin-right: 8px;
+    line-height: 20px;
+}
+
+.person-lastname {
+    font-family: 'fcb-condensed-bold';
+    font-size: 40px;
+    font-weight: 400;
+    text-transform: uppercase;
+    margin: 0;
+}
+
+.person-info-top {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 8px;
+    margin: 0;
+}
+
+.person-info {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0px;
+    margin-bottom: 20px;
+    transition: transform 0.5s ease;
+}
+
+.box-person-img:hover .person-info {
+    transform: translateY(-90px);
+}
+
+.box-person-img:hover .person-number {
+    transform: translateY(-15px);
+}
+
+.box-person-img:hover #cs {
+    transform: translateY(-20px);
+}
+
+.person-stats {
+    display: inline-block;
+    width: 85%;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.5s ease;
+    border-top: 1px solid #b0b0b0;
+    padding-top: 20px;
+    opacity: 0;
+}
+
+.box-person-img:hover .person-stats {
+    transform: translateY(-110px);
+    opacity: 1;
+}
+
+
+
+.player-stats-footer {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.player-stats-footer-list {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.player-stats-footer-list__time {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 0 20px;
+}
+
+.player-stats-footer__title-item {
+    font-size: 10px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.box-person-img:hover .player-stats-footer__title-item {
+    text-shadow: #0003 0 2px 6px;
+}
+
+
+
+
+.player-stats-value-big {
+    display: inline;
+    font-size: 32px;
+    line-height: 32px;
+    text-align: center;
+    font-weight: 400;
+}
+
+.player-stats-footer-list__season {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 0 20px;
+}
+
+.player-stats-footer__season-title {
+    font-size: 10px;
+    text-align: center;
+    line-height: 12px;
+    color: #ffffff
+}
+
+.player-stats-value-small {
+    display: inline;
+    font-size: 18px;
+    line-height: 18px;
+    text-align: center;
+    transition: color 0.25s ease;
+    color: transparent;
+}
+
+.box-person-img:hover .player-stats-value-small {
+    color: #fdc52c;
+}
+
+.main-person-img {
+    background-color: linear-gradient(0deg, rgba(0, 0, 0, 0.76234243697479) 36%, rgba(255, 255, 255, 0.4318102240896359) 79%);
+    z-index: 999;
+}
+
+.coaching-staff {
+    display: block;
+    flex: 100%;
+}
+
+.coaching-staff-person {
+    display: flex;
+    margin-bottom: 0.5rem;
+    font-size: 22px;
+}
+
+.coaching-staff-person__role {
+    background-color: #ededed;
+    margin-right: 1px;
+    font-family: 'fcb-bold';
+    font-weight: 400;
+}
+
+.coaching-staff-person__name {
+    background-color: #f3f3f3;
+    margin-right: 1px;
+    font-family: 'fcb-regular';
+}
+
+.coaching-staff-person__role,
+.coaching-staff-person__name {
+    padding: 8px;
+    text-align: center;
+    text-transform: uppercase;
+    flex: 50%;
+}
+
+footer {
+    position: relative;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    top: -320px;
+    display: block;
+}
+
+footer::after {
+    position: absolute;
+    content: "";
+    bottom: -430px;
+    left: 0;
+    width: 100%;
+    height: 16px;
+    background: linear-gradient(270deg, #9b0041 0, #9b0041 48%, #0018b4 52%, #0018b4);
+}
+
+.end {
+    display: block;
+    background: linear-gradient(270deg, #9b0041 0, #9b0041 48%, #0018b4 52%, #0018b4);
+}
+
+.size {
+    width: 100%;
+    max-width: 148rem;
+    margin: 0 auto;
+    padding: 0;
+    position: relative;
+}
+
+.size {
+    width: 100%;
+    max-width: 1490px;
+    margin: 0 auto;
+    padding: 0;
+    position: relative;
+}
+
+.trophy-container {
+    width: 100%;
+    height: 174px;
+    padding: 0 16px;
+    border-radius: 0 0 16px 16px;
+    border: 1px solid #262b47;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-decoration: none;
+    margin: 0 auto;
+    max-width: 1456px;
+    font-family: 'fcb-regular';
+    font-size: 14px;
+    position: relative;
+}
+
+.footer-trophies {
+    display: block;
+}
+
+.footer-trophies__trophy-image {
+    height: 50px;
+    width: 38px;
+    fill: #fdc52c;
+    z-index: 28;
+}
+
+.trophy {
+    position: relative;
+    height: 86px;
+    width: 25%;
+    margin: 0 8px;
+}
+
+.trophy-background {
+    background-color: #171637;
+    background-image: url('/assets/images/bg_ele/horizontal-flash.jpg');
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -2;
+}
+
+
+.trophy-background-text {
+    width: 100%;
+    height: 28px;
+    background-color: #000000;
+    position: absolute;
+    top: 50%;
+    z-index: -1;
+    transform: translateY(-50%);
+}
+
+.trophy-descript {
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    color: #fff;
+}
+
+.trophy-count {
+    font-family: 'fcb-extra-bold';
+    font-weight: 400;
+    font-size: 62px;
+    line-height: 75px;
+    color: #fdc52c;
+    margin: 0 8px;
+    z-index: 20;
+}
+
+.competition-name,
+.competition-type {
+    font-family: 'fcb-bold';
+    font-weight: 400;
+    font-size: 12px;
+}
+
+.competition-name {
+    line-height: 14px;
+    margin-right: 4px;
+}
+
+.competition-type {
+    text-transform: uppercase;
+}
+
+.footer-centenary-img {
+    background-image: url('/assets/images/bg_ele/fcb-centenary-footer-image.png');
+    background-size: cover;
+    background-position: center;
+    background-position: 50%;
+    background-repeat: no-repeat;
+    height: 5rem;
+    padding: 8rem 0;
+    position: relative;
+    object-fit: cover;
+    width: 99vw;
+    top: 190px;
+}
+
+.footer-core:before {
+    top: 0;
+    background: linear-gradient(0deg, rgba(24, 23, 51, 0), rgba(24, 23, 51, .1));
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.footer-sponsors-title {
+    color: #fdc52c;
+    display: block;
+    font-size: 12px;
+    letter-spacing: 1px;
+    line-height: 14px;
+    text-transform: uppercase;
+    font-family: 'fcb-bold';
+    font-weight: 400;
+    height: 14px;
+    margin-bottom: 11px;
+}
+
+
+
+
+/* ======================== */
+
+.logo-sponsors-nike {
+    background-image: url('/assets/images/svg_img/nike--white.svg');
+    background-repeat: no-repeat;
+    width: 300px;
+    height: 108px;
+    position: relative;
+
+}
+
+.logo-sponsors-spot {
+    background-image: url('/assets/images/svg_img/spotify--white.svg');
+    background-repeat: no-repeat;
+    width: 150px;
+    height: 150px;
+    position: relative;
+}
+
+.logo-sponsors-tv {
+    background-image: url('/assets/images/svg_img/ambilight--white.svg');
+    background-repeat: no-repeat;
+    width: 408px;
+    height: 46px;
+    position: relative;
+}
+
+.logo-sponsors-nike::before {
+    content: "";
+    display: flex;
+}
+
+.logo-sponsors-spot::before {
+    content: "";
+    display: flex;
+}
+
+.logo-sponsors-tv::before {
+    content: "";
+    display: flex;
+}
+
+.logo-sponsors-nike a {
+    height: 100%;
+    display: flex;
+    position: relative;
+
+}
+
+.logo-sponsors-spot a {
+    height: 100%;
+    display: flex;
+    position: relative;
+}
+
+.logo-sponsors-tv a {
+    height: 100%;
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+.sponsors-container {
+    display: flex;
+    align-items: center;
+    padding: 0 16px;
+    justify-content: space-around;
+    position: relative;
+    border-left: 2px solid #fdc52c;
+}
+
+.logo-sponsors-nike::before {
+    content: "";
+    position: absolute;
+    bottom: -40px;
+    left: 50%;
+    transform: translate(-50%, 0);
+    width: 0;
+    height: 4px;
+    background-color: #fdc52c;
+    transition: width 0.5s ease;
+}
+
+.logo-sponsors-spot::before {
+    content: "";
+    position: absolute;
+    bottom: -15px;
+    left: 50%;
+    transform: translate(-50%, 0);
+    width: 0;
+    height: 4px;
+    background-color: #fdc52c;
+    transition: width 0.5s ease;
+}
+
+.logo-sponsors-tv::before {
+    content: "";
+    position: absolute;
+    bottom: -62px;
+    left: 50%;
+    transform: translate(-50%, 0);
+    width: 0;
+    height: 4px;
+    background-color: #fdc52c;
+    transition: width 0.5s ease;
+}
+
+.logo-sponsors-nike:hover::before {
+    width: 100%;
+}
+
+.logo-sponsors-spot:hover::before {
+    width: 200%;
+}
+
+.logo-sponsors-tv:hover::before {
+    width: 100%;
+}
+
+.footer-core {
+    padding: 24px 0;
+    top: 330px;
+    position: relative;
+    width: 100%;
+}
+
+
+
+/* ========================== */
+/* footer-bottom */
+/* ========================== */
+.footer-bottom {
+    position: relative;
+    top: 400px;
+    color: #fdc52c;
+    display: block;
+}
+
+.social-acc {
+    position: relative;
+    text-align: center;
+}
+
+.social-acc-title {
+    margin: 32px 0 0;
+    color: #fff;
+    font-size: 18px;
+    line-height: 27px;
+    font-family: 'fcb-bold';
+    font-weight: 400;
+}
+
+.social-acc-link-list {
+    display: flex;
+    max-width: 1000px;
+    margin: 16px auto 24px;
+    text-align: left;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.social-acc-container {
+    display: block;
+    margin: 4px;
+    max-width: 158px;
+    min-width: 104px;
+    height: 104px;
+    flex: 1 1 13%;
+}
+
+.social-acc-acc {
+    position: relative;
+    display: block;
+    height: 100%;
+    padding: 12px 12px 13px;
+    text-decoration: none;
+    z-index: 10;
+}
+
+.social-acc-acc::before {
+    content: "";
+    position: absolute;
+    top: -2px;
+    right: -2px;
+    bottom: -2px;
+    left: -2px;
+    background: transparent;
+    transition: background 0.3s ease;
+}
+
+.social-acc-acc:hover::before {
+    background: white;
+}
+
+.social-acc-content {
+    position: relative;
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: left;
+    z-index: 10;
+}
+
+
+
+.social-hidden {
+    border: 0;
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    visibility: hidden;
+}
+
+.social-accounts__icon {
+    display: block;
+    width: 28px;
+    height: 28px;
+    fill: #000
+}
+
+.social-acc-content-name,
+.social-acc-content-handle {
+    color: #fff;
+    font-family: 'fcb-bold';
+    font-weight: 400;
+}
+
+.social-acc-content-name {
+    margin-bottom: 4px;
+    font-size: 10px;
+    line-height: 12px;
+
+}
+
+.social-acc-content-handle {
+    font-size: 12px;
+    line-height: 14px;
+}
+
+
+.acc-facebook::after {
+    background: #3b5998;
+}
+
+.acc-X::after {
+    background: #55acee;
+}
+
+.acc-youtube::after {
+    background: #b00;
+}
+
+.acc-instagram::after {
+    background: radial-gradient(circle farthest-corner at 35% 90%, #fec564, transparent 50%), radial-gradient(circle farthest-corner at 0 140%, #fec564, transparent 50%), radial-gradient(ellipse farthest-corner at 0 -25%, #5258cf, transparent 50%), radial-gradient(ellipse farthest-corner at 20% -50%, #5258cf, transparent 50%), radial-gradient(ellipse farthest-corner at 100% 0, #893dc2, transparent 50%), radial-gradient(ellipse farthest-corner at 60% -20%, #893dc2, transparent 50%), radial-gradient(ellipse farthest-corner at 100% 100%, #d9317a, transparent), linear-gradient(#6559ca, #bc318f 30%, #e33f5f 50%, #f77638 70%, #fec66d);
+}
+
+.acc-tiktok::after {
+    background: #adacac;
+}
+
+.acc-spotify::after {
+    background: #1acf5d;
+}
+
+.acc-discord::after {
+    background: #5865f2;
+}
+
+.social-acc-acc::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
+
+/* ========================== */
+/* footer-webmap */
+/* ========================== */
+.footer-nav {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    padding-top: 92.5px;
+
+}
+
+.footer-webmap-group {
+    flex: 1 0 auto;
+}
+
+.footer-webmap-title {
+    font-family: 'fcb-bold';
+    font-weight: 400;
+    color: #fff;
+    font-size: 18px;
+    line-height: 22px;
+}
+
+.footer-webmap-list {
+    margin-top: 30px;
+    position: relative;
+}
+
+.footer-webmap-link {
+    width: 75%;
+    height: 100%;
+    display: inline-block;
+    font-family: 'fcb-light';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 32px;
+    padding-right: 10px;
+    color: hsla(0, 0%, 100%, .75);
+    text-decoration: none;
+    transition: color .3s ease;
+}
+
+.footer-webmap-item a:hover {
+    text-decoration: underline;
+}
+
+/* ========================== */
+/* footer-corparate */
+/* ========================== */
+.footer-cor-links-logo {
+    margin-bottom: 32px;
+}
+
+.footer-cor-links-logo .icon {
+    fill: #fff;
+    width: 216px;
+    height: 32px;
+}
+
+.footer-cor-links-bottom {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.footer-cor-links-copyright {
+    font-family: 'fcb-light';
+    font-weight: 400;
+    color: hsla(0, 0%, 100%, .75);
+    height: 16px;
+    line-height: 16px;
+    font-size: 14px;
+}
+
+.footer-cor-links-copyright span {
+    font-family: 'fcb-semi-bold';
+    font-weight: 400;
+    color: #fff;
+
+}
+
+.footer-cor-links-group {
+    display: inline-flex;
+}
+
+.footer-cor-link-item {
+    position: relative;
+    padding: 0 4px;
+    color: #fff;
+}
+
+.footer-cor-link-item:hover {
+    text-decoration: underline;
+}
+
+.footer-cor-link-item::after {
+    display: block;
+    content: "";
+    position: absolute;
+    top: 6px;
+    right: 0;
+    width: 1px;
+    height: 12px;
+    background-color: #fff;
+    opacity: 0.75;
+}
+
+
+.footer-cor-link-item-link {
+    font-family: 'fcb-light';
+    font-weight: 400;
+    color: #fff;
+    line-height: 14px;
+    font-size: 12px;
+    padding: 8px;
+    text-decoration: none;
+}

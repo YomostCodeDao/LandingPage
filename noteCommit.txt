@@ -1,0 +1,24 @@
+Ngày 7/1/2025: Start Landing page
+
+Ngày 8/1/2025: Tạo các folder chứa cái tài liệu
+
+Ngày 9/1/2025: Tìm kiếm các nguồn tài nguyên
+
+Ngày 13/1/2025: Chỉnh sửa phần HEADER
+
+Ngày 15/1/2025: Hoàn thành HEADER 80%
+
+Ngày 16/1/2025: Chỉnh sửa font chữ cho các font bao gồm .eot .woff .woff2 .ttf
+
+Ngày 17/1/2025: Tạo cấu trúc tag cho các thẻ 
+
+Ngày 19/1/2025: Chỉnh main.css
+
+Ngày 21/1/2025: Bắt đầu hoàn thành thẻ card
+
+Ngày 23/1/2025: Chỉnh CSS cho các hover đẹp hơn, giống web chính
+
+Ngày 25/1/2025: Xong CSS cho các card, fix các lỗi nhỏ
+
+Ngày 27/1/2025: Làm xong phần trophy
+
