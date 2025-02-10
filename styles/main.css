@@ -671,17 +671,17 @@ h1 {
 
 #gk1 {
     background: linear-gradient(0deg, rgba(0, 0, 0, 1) 18%, rgba(255, 255, 255, 0) 50%),
-        url('/assets/images/fcb_soccer_img/Goalkeepers/G_01-Ter_Stegen-M.jpg');
+        url('../assets/images/fcb_soccer_img/Goalkeepers/G_01-Ter_Stegen-M.jpg');
 }
 
 #gk2 {
     background: linear-gradient(0deg, rgba(0, 0, 0, 1) 18%, rgba(255, 255, 255, 0) 50%),
-        url('/assets/images/fcb_soccer_img/Goalkeepers/G_02-Inaki_Pena-M.jpg');
+        url('../assets/images/fcb_soccer_img/Goalkeepers/G_02-Inaki_Pena-M.jpg');
 }
 
 #gk3 {
     background: linear-gradient(0deg, rgba(0, 0, 0, 1) 18%, rgba(255, 255, 255, 0) 50%),
-        url('/assets/images/fcb_soccer_img/Goalkeepers/G_03-Szczesny-M.jpg');
+        url('../assets/images/fcb_soccer_img/Goalkeepers/G_03-Szczesny-M.jpg');
 }
 
 #df1 {
