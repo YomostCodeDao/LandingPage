@@ -808,6 +808,77 @@ h1 {
     height: 4px;
 }
 
+.header-part-3-mobile {
+    position: absolute;
+    width: 100%;
+    visibility: hidden;
+}
+
+.nav-mobile-item-icon-container {
+    display: flex;
+    justify-content: center;
+    width: 3.6rem;
+}
+
+.nav-mobile-item-icon {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    fill: #050505;
+    background-repeat: no-repeat;
+    height: 1.6rem;
+    width: 1.6rem;
+    background-position: 50%;
+}
+
+.nav-mobile {
+    position: relative;
+    display: flex;
+    padding: 16px 0;
+    /* overflow: auto; */
+    background-color: #fff;
+    height: 35px;
+}
+
+.nav-mobile-item {
+    text-decoration: none;
+    width: 80px;
+    height: auto;
+    min-width: 80px;
+    height: 10px;
+    margin-right: 8px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+
+
+.nav-mobile-item-title {
+    font-size: 14px;
+    color: #181733;
+    white-space: nowrap;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-transform: uppercase;
+    font-family: 'fcb-condensed-bold';
+    font-weight: 400;
+
+}
+
+.secondary-navigation-mobile__icon {
+    fill: #181733;
+}
+
+.nav-mobile-item-link {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
 .main {
     margin-right: auto;
     margin-left: auto;
@@ -830,19 +901,19 @@ h1 {
     text-align: center;
     justify-content: center;
     align-items: center;
-    opacity: 0.3;
+    opacity: 1;
     position: relative;
     z-index: 99;
 }
 
 .hero-heading-overlay {
-    position: absolute;
+    /* position: absolute; */
     top: 0;
     left: 0;
     right: 0;
     bottom: 0;
     opacity: 1;
-    z-index: 998;
+    z-index: 32;
 }
 
 .hero-heading {
@@ -856,6 +927,7 @@ h1 {
     text-transform: uppercase;
     position: static;
     z-index: 999;
+    position: relative;
 }
 
 .main-header {
@@ -888,6 +960,7 @@ h1 {
     margin: 0;
     display: flex;
     align-items: center;
+    transition: all 0.25s ease;
 }
 
 .content-partner-label {

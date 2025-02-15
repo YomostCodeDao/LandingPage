@@ -2,9 +2,7 @@
 /* VIEWPOINT */
 /* ===================== */
 @media only screen and (max-width: 1500px) {
-    .nav-middle-menu {
-        display: none;
-    }
+
 
     .top-mes {
         font-size: 1rem;
@@ -43,6 +41,7 @@
         scale: 1;
         margin-left: 0;
         width: 100%;
+        transition: all 0.25s ease;
     }
 
     .top-nav-right {
@@ -50,8 +49,9 @@
     }
 
     .nav-middle-logo img {
-        width: 80px;
-        height: 80px;
+        width: 90px;
+        height: 90px;
+        transition: all 0.25s ease;
     }
 
     .mini-pic {
@@ -64,22 +64,15 @@
         flex-direction: column;
     }
 
-    .title-first-team {
-        font-size: 20px;
+    /* .title-first-team {
+        font-size: 3px;
         line-height: 20px;
         padding: 0 10px 0 0;
         margin-top: 0;
-    }
+    } */
 
     .title-first-team h1 {
-        font-family: 'fcb-condensed-bold';
-        font-size: 25px;
-        line-height: 20px;
-        font-weight: 400;
-        padding: 0 10px 0 0;
-        margin: 0;
-        display: flex;
-        align-items: center;
+        font-size: 35px;
     }
 
     .teamperson-container {
@@ -95,6 +88,21 @@
     .box-person-img {
         width: 19rem;
         height: 19rem;
+        transition: all 0.25s ease;
+    }
+
+    .header-part-3 {
+        display: none;
+    }
+
+    .nav-middle-menu {
+        display: none;
+    }
+
+    .header-part-3-mobile {
+        visibility: visible;
+        transform: translateY(-25px);
+        transition: all 0.25s ease;
     }
 
 
@@ -111,5 +119,21 @@
 
     .footer-cor-link-item::after {
         display: none;
+    }
+
+    .nav-mobile {
+        display: flex !important;
+    }
+}
+
+@media only screen and (max-width: 740px) {
+    .hero-heading {
+        font-size: 28px;
+    }
+}
+
+@media only screen and (max-width: 551px) {
+    .sub-nav-item {
+        font-size: 10px;
     }
 }
