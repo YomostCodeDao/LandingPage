@@ -17,6 +17,7 @@ main {
 
 div {
     display: block;
+    /* unicode-bidi: isolate; */
 }
 
 ul {

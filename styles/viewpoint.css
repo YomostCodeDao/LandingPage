@@ -26,28 +26,12 @@
     .mini-pic {
         width: 100vw;
     }
-
-    /* .img {
-        width: 19rem;
-        height: 19rem;
-    } */
-
-    /* .box-person-img {
-        position: relative;
-        width: 19rem;
-        height: 19rem;
-    } */
-
-    /* .gk1{
-        width: 19rem;
-            height: 19rem;
-    } */
 }
 
 @media only screen and (max-width: 992px) {}
 
 
-@media only screen and (max-width: 700px) {
+@media only screen and (max-width: 992px) {
     .mini-pic {
         width: 100vw;
     }
@@ -58,15 +42,38 @@
         flex-direction: column;
     }
 
-    .teamperson-container{
+    .title-first-team {
+        font-size: 20px;
+        line-height: 20px;
+        padding: 0 10px 0 0;
+        margin-top: 0;
+    }
+
+    .title-first-team h1 {
+        font-family: 'fcb-condensed-bold';
+        font-size: 25px;
+        line-height: 20px;
+        font-weight: 400;
+        padding: 0 10px 0 0;
+        margin: 0;
+        display: flex;
+        align-items: center;
+    }
+
+    .teamperson-container {
         width: auto;
         height: auto;
     }
 
-        .img {
-            width: 19rem;
-            height: 19rem;
-        }
+    .img {
+        width: 19rem;
+        height: 19rem;
+    }
+
+    .box-person-img {
+        width: 19rem;
+        height: 19rem;
+    }
 
 
 }
