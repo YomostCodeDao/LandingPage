@@ -17,7 +17,6 @@ main {
 
 div {
     display: block;
-    /* unicode-bidi: isolate; */
 }
 
 ul {
@@ -57,6 +56,7 @@ footer::after {
     height: 16px;
     background: linear-gradient(270deg, #9b0041 0, #9b0041 48%, #0018b4 52%, #0018b4);
 }
+
 a {
     background-color: transparent;
     text-decoration: none;
@@ -146,6 +146,130 @@ h1 {
     src: url('../resources/v2.94.7-6669/fonts/FC_BARCELONACONDENSEDPRO-Semibold.woff2') format('woff2');
     font-weight: normal;
     font-style: normal;
+}
+
+#gk1 {
+    background: linear-gradient(0deg, rgba(0, 0, 0, 1) 18%, rgba(255, 255, 255, 0) 50%),
+        url('../assets/images/fcb_soccer_img/Goalkeepers/G_01-Ter_Stegen-M.jpg');
+}
+
+#gk2 {
+    background: linear-gradient(0deg, rgba(0, 0, 0, 1) 18%, rgba(255, 255, 255, 0) 50%),
+        url('../assets/images/fcb_soccer_img/Goalkeepers/G_02-Inaki_Pena-M.jpg');
+}
+
+#gk3 {
+    background: linear-gradient(0deg, rgba(0, 0, 0, 1) 18%, rgba(255, 255, 255, 0) 50%),
+        url('../assets/images/fcb_soccer_img/Goalkeepers/G_03-Szczesny-M.jpg');
+}
+
+#df1 {
+    background: linear-gradient(0deg, rgba(0, 0, 0, 1) 18%, rgba(255, 255, 255, 0) 50%),
+        url('../assets/images/fcb_soccer_img/Defenders/DF_01-Cubarsi-M.jpg');
+}
+
+#df2 {
+    background: linear-gradient(0deg, rgba(0, 0, 0, 1) 18%, rgba(255, 255, 255, 0) 50%),
+        url('../assets/images/fcb_soccer_img/Defenders/DF_02-Balde-M.jpg');
+}
+
+#df3 {
+    background: linear-gradient(0deg, rgba(0, 0, 0, 1) 18%, rgba(255, 255, 255, 0) 50%),
+        url('../assets/images/fcb_soccer_img/Defenders/DF_03-Araujo-M.jpg');
+}
+
+#df4 {
+    background: linear-gradient(0deg, rgba(0, 0, 0, 1) 18%, rgba(255, 255, 255, 0) 50%),
+        url('../assets/images/fcb_soccer_img/Defenders/DF_04-Martinez-M.jpg');
+}
+
+#df5 {
+    background: linear-gradient(0deg, rgba(0, 0, 0, 1) 18%, rgba(255, 255, 255, 0) 50%),
+        url('../assets/images/fcb_soccer_img/Defenders/DF_05-Christensen-M.jpg');
+}
+
+#df6 {
+    background: linear-gradient(0deg, rgba(0, 0, 0, 1) 18%, rgba(255, 255, 255, 0) 50%),
+        url('../assets/images/fcb_soccer_img/Defenders/DF_06-Kounde-M.jpg');
+}
+
+#df7 {
+    background: linear-gradient(0deg, rgba(0, 0, 0, 1) 18%, rgba(255, 255, 255, 0) 50%),
+        url('../assets/images/fcb_soccer_img/Defenders//DF_07--Eric_Garcia-M.jpg');
+}
+
+#m1 {
+    background: linear-gradient(0deg, rgba(0, 0, 0, 1) 18%, rgba(255, 255, 255, 0) 50%),
+        url('../assets/images/fcb_soccer_img/Midfielders/M_01-Gavi-M.jpg');
+}
+
+#m2 {
+    background: linear-gradient(0deg, rgba(0, 0, 0, 1) 18%, rgba(255, 255, 255, 0) 50%),
+        url('../assets/images/fcb_soccer_img/Midfielders/M_02-Pedri-M.jpg');
+}
+
+#m3 {
+    background: linear-gradient(0deg, rgba(0, 0, 0, 1) 18%, rgba(255, 255, 255, 0) 50%),
+        url('../assets/images/fcb_soccer_img/Midfielders/M_03-Pablo_Torre-M.jpg');
+}
+
+#m4 {
+    background: linear-gradient(0deg, rgba(0, 0, 0, 1) 18%, rgba(255, 255, 255, 0) 50%),
+        url('../assets/images/fcb_soccer_img/Midfielders/M_04-Fermin-M.jpg');
+}
+
+#m5 {
+    background: linear-gradient(0deg, rgba(0, 0, 0, 1) 18%, rgba(255, 255, 255, 0) 50%),
+        url('../assets/images/fcb_soccer_img/Midfielders/M_05-Casado-M.jpg');
+}
+
+#m6 {
+    background: linear-gradient(0deg, rgba(0, 0, 0, 1) 18%, rgba(255, 255, 255, 0) 50%),
+        url('../assets/images/fcb_soccer_img/Midfielders/M_06-Olmo-M.jpg');
+}
+
+#m7 {
+    background: linear-gradient(0deg, rgba(0, 0, 0, 1) 18%, rgba(255, 255, 255, 0) 50%),
+        url('../assets/images/fcb_soccer_img/Midfielders/M_07-De_Jong-M.jpg');
+}
+
+#f1 {
+    background: linear-gradient(0deg, rgba(0, 0, 0, 1) 18%, rgba(255, 255, 255, 0) 50%),
+        url('../assets/images/fcb_soccer_img/Forwards/F_01-Ferran_Torres-M.jpg');
+}
+
+#f2 {
+    background: linear-gradient(0deg, rgba(0, 0, 0, 1) 18%, rgba(255, 255, 255, 0) 50%),
+        url('../assets/images/fcb_soccer_img/Forwards/F_02-Lewandowski-M.jpg');
+}
+
+#f3 {
+    background: linear-gradient(0deg, rgba(0, 0, 0, 1) 18%, rgba(255, 255, 255, 0) 50%),
+        url('../assets/images/fcb_soccer_img/Forwards/F_03-Ansu_Fati-M.jpg');
+}
+
+#f4 {
+    background: linear-gradient(0deg, rgba(0, 0, 0, 1) 18%, rgba(255, 255, 255, 0) 50%),
+        url('../assets/images/fcb_soccer_img/Forwards/F_04-Raphinha-M.jpg');
+}
+
+#f5 {
+    background: linear-gradient(0deg, rgba(0, 0, 0, 1) 18%, rgba(255, 255, 255, 0) 50%),
+        url('../assets/images/fcb_soccer_img/Forwards/F_05-Pau_Victor-M.jpg');
+}
+
+#f6 {
+    background: linear-gradient(0deg, rgba(0, 0, 0, 1) 18%, rgba(255, 255, 255, 0) 50%),
+        url('../assets/images/fcb_soccer_img/Forwards/F_06-Lamine-M.jpg');
+}
+
+#cs1 {
+    background: linear-gradient(0deg, rgba(0, 0, 0, 1) 18%, rgba(255, 255, 255, 0) 50%),
+        url('../assets/images/fcb_soccer_img/Coaching_Staff/CS_0_Hansi_Flick-M.jpg');
+}
+
+#cs {
+    transition: transform 0.5s ease;
 }
 
 .img {
@@ -682,135 +806,6 @@ h1 {
     height: 4px;
 }
 
-
-
-
-#gk1 {
-    background: linear-gradient(0deg, rgba(0, 0, 0, 1) 18%, rgba(255, 255, 255, 0) 50%),
-        url('../assets/images/fcb_soccer_img/Goalkeepers/G_01-Ter_Stegen-M.jpg');
-}
-
-#gk2 {
-    background: linear-gradient(0deg, rgba(0, 0, 0, 1) 18%, rgba(255, 255, 255, 0) 50%),
-        url('../assets/images/fcb_soccer_img/Goalkeepers/G_02-Inaki_Pena-M.jpg');
-}
-
-#gk3 {
-    background: linear-gradient(0deg, rgba(0, 0, 0, 1) 18%, rgba(255, 255, 255, 0) 50%),
-        url('../assets/images/fcb_soccer_img/Goalkeepers/G_03-Szczesny-M.jpg');
-}
-
-#df1 {
-    background: linear-gradient(0deg, rgba(0, 0, 0, 1) 18%, rgba(255, 255, 255, 0) 50%),
-        url('../assets/images/fcb_soccer_img/Defenders/DF_01-Cubarsi-M.jpg');
-}
-
-#df2 {
-    background: linear-gradient(0deg, rgba(0, 0, 0, 1) 18%, rgba(255, 255, 255, 0) 50%),
-        url('../assets/images/fcb_soccer_img/Defenders/DF_02-Balde-M.jpg');
-}
-
-#df3 {
-    background: linear-gradient(0deg, rgba(0, 0, 0, 1) 18%, rgba(255, 255, 255, 0) 50%),
-        url('../assets/images/fcb_soccer_img/Defenders/DF_03-Araujo-M.jpg');
-}
-
-#df4 {
-    background: linear-gradient(0deg, rgba(0, 0, 0, 1) 18%, rgba(255, 255, 255, 0) 50%),
-        url('../assets/images/fcb_soccer_img/Defenders/DF_04-Martinez-M.jpg');
-}
-
-#df5 {
-    background: linear-gradient(0deg, rgba(0, 0, 0, 1) 18%, rgba(255, 255, 255, 0) 50%),
-        url('../assets/images/fcb_soccer_img/Defenders/DF_05-Christensen-M.jpg');
-}
-
-#df6 {
-    background: linear-gradient(0deg, rgba(0, 0, 0, 1) 18%, rgba(255, 255, 255, 0) 50%),
-        url('../assets/images/fcb_soccer_img/Defenders/DF_06-Kounde-M.jpg');
-}
-
-#df7 {
-    background: linear-gradient(0deg, rgba(0, 0, 0, 1) 18%, rgba(255, 255, 255, 0) 50%),
-        url('../assets/images/fcb_soccer_img/Defenders//DF_07--Eric_Garcia-M.jpg');
-}
-
-#m1 {
-    background: linear-gradient(0deg, rgba(0, 0, 0, 1) 18%, rgba(255, 255, 255, 0) 50%),
-        url('../assets/images/fcb_soccer_img/Midfielders/M_01-Gavi-M.jpg');
-}
-
-#m2 {
-    background: linear-gradient(0deg, rgba(0, 0, 0, 1) 18%, rgba(255, 255, 255, 0) 50%),
-        url('../assets/images/fcb_soccer_img/Midfielders/M_02-Pedri-M.jpg');
-}
-
-#m3 {
-    background: linear-gradient(0deg, rgba(0, 0, 0, 1) 18%, rgba(255, 255, 255, 0) 50%),
-        url('../assets/images/fcb_soccer_img/Midfielders/M_03-Pablo_Torre-M.jpg');
-}
-
-#m4 {
-    background: linear-gradient(0deg, rgba(0, 0, 0, 1) 18%, rgba(255, 255, 255, 0) 50%),
-        url('../assets/images/fcb_soccer_img/Midfielders/M_04-Fermin-M.jpg');
-}
-
-#m5 {
-    background: linear-gradient(0deg, rgba(0, 0, 0, 1) 18%, rgba(255, 255, 255, 0) 50%),
-        url('../assets/images/fcb_soccer_img/Midfielders/M_05-Casado-M.jpg');
-}
-
-#m6 {
-    background: linear-gradient(0deg, rgba(0, 0, 0, 1) 18%, rgba(255, 255, 255, 0) 50%),
-        url('../assets/images/fcb_soccer_img/Midfielders/M_06-Olmo-M.jpg');
-}
-
-#m7 {
-    background: linear-gradient(0deg, rgba(0, 0, 0, 1) 18%, rgba(255, 255, 255, 0) 50%),
-        url('../assets/images/fcb_soccer_img/Midfielders/M_07-De_Jong-M.jpg');
-}
-
-#f1 {
-    background: linear-gradient(0deg, rgba(0, 0, 0, 1) 18%, rgba(255, 255, 255, 0) 50%),
-        url('../assets/images/fcb_soccer_img/Forwards/F_01-Ferran_Torres-M.jpg');
-}
-
-#f2 {
-    background: linear-gradient(0deg, rgba(0, 0, 0, 1) 18%, rgba(255, 255, 255, 0) 50%),
-        url('../assets/images/fcb_soccer_img/Forwards/F_02-Lewandowski-M.jpg');
-}
-
-#f3 {
-    background: linear-gradient(0deg, rgba(0, 0, 0, 1) 18%, rgba(255, 255, 255, 0) 50%),
-        url('../assets/images/fcb_soccer_img/Forwards/F_03-Ansu_Fati-M.jpg');
-}
-
-#f4 {
-    background: linear-gradient(0deg, rgba(0, 0, 0, 1) 18%, rgba(255, 255, 255, 0) 50%),
-        url('../assets/images/fcb_soccer_img/Forwards/F_04-Raphinha-M.jpg');
-}
-
-#f5 {
-    background: linear-gradient(0deg, rgba(0, 0, 0, 1) 18%, rgba(255, 255, 255, 0) 50%),
-        url('../assets/images/fcb_soccer_img/Forwards/F_05-Pau_Victor-M.jpg');
-}
-
-#f6 {
-    background: linear-gradient(0deg, rgba(0, 0, 0, 1) 18%, rgba(255, 255, 255, 0) 50%),
-        url('../assets/images/fcb_soccer_img/Forwards/F_06-Lamine-M.jpg');
-}
-
-#cs1 {
-    background: linear-gradient(0deg, rgba(0, 0, 0, 1) 18%, rgba(255, 255, 255, 0) 50%),
-        url('../assets/images/fcb_soccer_img/Coaching_Staff/CS_0_Hansi_Flick-M.jpg');
-}
-
-#cs {
-    transition: transform 0.5s ease;
-}
-
-
-
 .main {
     margin-right: auto;
     margin-left: auto;
@@ -1165,6 +1160,8 @@ h1 {
     padding: 0;
     position: relative;
 }
+
+/* CÁi qqq gì đâyyyyy */
 
 .size {
     width: 100%;
