@@ -64,13 +64,6 @@
         flex-direction: column;
     }
 
-    /* .title-first-team {
-        font-size: 3px;
-        line-height: 20px;
-        padding: 0 10px 0 0;
-        margin-top: 0;
-    } */
-
     .title-first-team h1 {
         font-size: 35px;
     }
@@ -130,10 +123,18 @@
     .hero-heading {
         font-size: 28px;
     }
+
+    .title-first-team h1 {
+        font-size: 30px;
+    }
 }
 
 @media only screen and (max-width: 551px) {
     .sub-nav-item {
         font-size: 10px;
+    }
+
+    .title-first-team h1 {
+        font-size: 25px;
     }
 }
