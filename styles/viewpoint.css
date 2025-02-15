@@ -1,7 +1,7 @@
 /* ===================== */
 /* VIEWPOINT */
 /* ===================== */
-@media only screen and (max-width: 1200px) {
+@media only screen and (max-width: 1500px) {
     .nav-middle-menu {
         display: none;
     }
@@ -20,7 +20,13 @@
     }
 
     .main {
-        max-width: 80vw;
+        width: 100%;
+        background-color: white;
+        border-radius: 16px 16px 0 0;
+        color: black;
+        height: auto;
+        text-align: center;
+        position: relative;
     }
 
     .mini-pic {
@@ -28,10 +34,26 @@
     }
 }
 
-@media only screen and (max-width: 992px) {}
+
 
 
 @media only screen and (max-width: 992px) {
+    .top-mes {
+        font-size: 12px;
+        scale: 1;
+        margin-left: 0;
+        width: 100%;
+    }
+
+    .top-nav-right {
+        display: none
+    }
+
+    .nav-middle-logo img {
+        width: 80px;
+        height: 80px;
+    }
+
     .mini-pic {
         width: 100vw;
     }
@@ -76,4 +98,18 @@
     }
 
 
+}
+
+@media only screen and (max-width: 861px) {
+    .footer-cor-links-bottom {
+        flex-direction: column;
+    }
+
+    .footer-cor-links-group {
+        flex-direction: column;
+    }
+
+    .footer-cor-link-item::after {
+        display: none;
+    }
 }

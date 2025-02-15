@@ -1,6 +1,7 @@
 html {
     background-color: rgba(24, 23, 51, 1);
     height: auto;
+    width: 100%;
 }
 
 body {
@@ -30,7 +31,7 @@ ul {
 }
 
 header {
-    width: 100%;
+    width: auto;
     height: auto;
     position: fixed;
     top: 0;
@@ -926,6 +927,8 @@ h1 {
 
 .main-sub-nav {
     text-align: center;
+    height: auto;
+    justify-content: center;
 }
 
 .teamlist-title {
@@ -1574,6 +1577,7 @@ h1 {
     width: 100%;
     justify-content: space-around;
     padding-top: 92.5px;
+    flex-wrap: wrap;
 
 }
 
